@@ -1,4 +1,4 @@
-# 🎬 Word by Word — Guessing Game
+# 🧠 Word by Word — Guessing Game
 
 A fast-paced, word-by-word guessing game built with **React 19** and **Firebase**.  
 The earlier you guess correctly, the higher your score. Compete with others on the live leaderboard.
