@@ -1,6 +1,6 @@
 # 🎬 Word by Word — Movie Guessing Game
 
-A fast-paced, word-by-word movie guessing game built with **React 19** and **Firebase**.  
+A fast-paced, word-by-word guessing game built with **React 19** and **Firebase**.  
 The earlier you guess correctly, the higher your score. Compete with others on the live leaderboard.
 
 🔗 **Live Demo:** [https://word-by-word-b3bcb.web.app](https://word-by-word-b3bcb.web.app)
@@ -10,8 +10,8 @@ The earlier you guess correctly, the higher your score. Compete with others on t
 ## 🎮 How to Play
 
 1. Enter your name and get assigned a random avatar
-2. A movie clue reveals itself **one word at a time**
-3. Hit **Stop & Guess** at any point to answer early
+2. A general knowledge clue reveals itself **one word at a time**
+3. Hit the correct answer at any point, try to answer early
 4. The earlier you answer correctly, the more points you earn
 5. Wrong answer or timeout = **0 points**
 6. Your score is saved to the live leaderboard automatically
