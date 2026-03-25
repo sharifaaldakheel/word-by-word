@@ -19,7 +19,7 @@ const SCREENS = {
 };
 
 export default function App() {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation()
   const [darkMode, setDarkMode] = useState(false);
   const [lang, setLang] = useState(i18n.language || "en");
   const [stack, setStack] = useState([SCREENS.HOME]);
@@ -75,13 +75,13 @@ export default function App() {
         {current === SCREENS.HOME && (
           <section id="center">
             <div className="card card-centered">
-              <span className="home-label">{i18n.t("gameGuessing")}</span>
-              <h1 className="home-title">{i18n.t("wordByword")}</h1>
+              <span className="home-label">{t("gameGuessing")}</span>
+              <h1 className="home-title">{t("wordByword")}</h1>
               <DotLottie />
             </div>
 
             <button className="btn-primary" onClick={() => push(SCREENS.LOBBY)}>
-              {i18n.t("joinGame")}
+              {t("joinGame")}
             </button>
 
             <button
